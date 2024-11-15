@@ -1,14 +1,14 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Root from './pages/Root'
-import Main from './pages/Main'
+import DashBoard from './pages/DashBoard'
 
 function App() {
 
   return (
     <Routes>
       <Route path='/' element={<Root />}/>
-      <Route path='/main' element={<Main />}/>
+      <Route path='/main' element={<DashBoard />}/>
     </Routes>
   )
 }
