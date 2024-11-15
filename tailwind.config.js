@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import defaultTheme from 'tailwindcss/defaultTheme'
+
 export default {
     darkMode: ["class"],
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
@@ -50,7 +52,21 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
-  		}
+  		},
+      fontFamily: {
+        Pretendard: ['Pretendard', 'sans-serif'],
+        PretendardMedium: ['Pretendard-Medium', 'sans-serif'],
+        PretendardSemiBold: ['Pretendard-SemiBold', 'sans-serif'],
+        PretendardBold: ['Pretendard-Bold', 'sans-serif'],
+        PretendardExtraBold: ['Pretendard-ExtraBold', 'sans-serif']
+      },
+      screens: {
+        ...defaultTheme.screens,
+        md: '950px',
+        xl: '1100px',
+        pc: '1200px',
+        '2xl': '1600px'
+      }
   	}
   },
   plugins: [require("tailwindcss-animate")],

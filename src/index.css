@@ -134,7 +134,69 @@ button:focus-visible {
     @apply bg-background text-foreground;
   }
 }
+
 @layer components {
+
+  /* 글꼴 */
+  @font-face {
+    font-family: 'Pretendard';
+    font-weight: 400;
+    font-style: normal;
+    src:
+      url('https://storage.googleapis.com/asset.dershare.xyz/pub/solarkim/fonts/Pretendard-Regular.woff2')
+        format('woff2'),
+      url('https://storage.googleapis.com/asset.dershare.xyz/pub/solarkim/fonts/Pretendard-Regular.woff')
+        format('woff'),
+      url('https://storage.googleapis.com/asset.dershare.xyz/pub/solarkim/fonts/Pretendard-Regular.eot')
+        format('embedded-opentype');
+  }
+  @font-face {
+    font-family: 'Pretendard-Medium';
+    font-weight: 500;
+    font-style: normal;
+    src:
+      url('https://storage.googleapis.com/asset.dershare.xyz/pub/solarkim/fonts/Pretendard-Medium.woff2')
+        format('woff2'),
+      url('https://storage.googleapis.com/asset.dershare.xyz/pub/solarkim/fonts/Pretendard-Medium.woff')
+        format('woff');
+  }
+
+  @font-face {
+    font-family: 'Pretendard-SemiBold';
+    font-weight: 600;
+    font-style: 'normal';
+    src:
+      url('https://storage.googleapis.com/asset.dershare.xyz/pub/solarkim/fonts/Pretendard-SemiBold.woff2')
+        format('woff2'),
+      url('https://storage.googleapis.com/asset.dershare.xyz/pub/solarkim/fonts/Pretendard-SemiBold.woff')
+        format('woff'),
+      url('https://storage.googleapis.com/asset.dershare.xyz/pub/solarkim/fonts/Pretendard-SemiBold.eot')
+        format('embedded-opentype');
+  }
+
+  @font-face {
+    font-family: 'Pretendard-Bold';
+    font-weight: 700;
+    font-style: 'normal';
+    src:
+      url('https://storage.googleapis.com/asset.dershare.xyz/pub/solarkim/fonts/Pretendard-Bold.woff2')
+        format('woff2'),
+      url('https://storage.googleapis.com/asset.dershare.xyz/pub/solarkim/fonts/Pretendard-Bold.woff')
+        format('woff');
+  }
+
+  @font-face {
+    font-family: 'Pretendard-ExtraBold';
+    font-weight: 800;
+    font-style: 'normal';
+    src:
+      url('https://storage.googleapis.com/asset.dershare.xyz/pub/solarkim/fonts/Pretendard-ExtraBold.woff2')
+        format('woff2'),
+      url('https://storage.googleapis.com/asset.dershare.xyz/pub/solarkim/fonts/Pretendard-ExtraBold.woff')
+        format('woff'),
+      url('https://storage.googleapis.com/asset.dershare.xyz/pub/solarkim/fonts/Pretendard-ExtraBold.eot')
+        format('embedded-opentype');
+  }
    /* header */
    .h1-bold {
     @apply font-PretendardBold text-[60px] leading-none max-pc:text-[32px] !important;
