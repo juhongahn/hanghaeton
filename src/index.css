@@ -134,3 +134,298 @@ button:focus-visible {
     @apply bg-background text-foreground;
   }
 }
+@layer components {
+   /* header */
+   .h1-bold {
+    @apply font-PretendardBold text-[60px] leading-none max-pc:text-[32px] !important;
+  }
+
+  .h1-semibold {
+    @apply font-PretendardSemiBold text-[60px] leading-none max-pc:text-[32px] !important;
+  }
+
+  .h1-medium {
+    @apply font-PretendardMedium text-[60px] leading-none max-pc:text-[32px] !important;
+  }
+
+  .h1 {
+    @apply font-Pretendard text-[60px] leading-none max-pc:text-[32px] !important;
+  }
+
+  .h2-bold {
+    @apply font-PretendardBold text-[48px] leading-tight max-pc:text-[28px] !important;
+  }
+
+  .h2-semibold {
+    @apply font-PretendardSemiBold text-[48px] leading-tight max-pc:text-[28px] !important;
+  }
+
+  .h2-medium {
+    @apply font-PretendardMedium text-[48px] leading-tight max-pc:text-[28px] !important;
+  }
+
+  .h2 {
+    @apply font-Pretendard text-[48px] leading-tight max-pc:text-[28px] !important;
+  }
+
+  /* semititle */
+  .s1-bold {
+    @apply font-PretendardBold text-[36px] leading-tight max-pc:text-[20px] !important;
+  }
+
+  .s1-semibold {
+    @apply font-PretendardSemiBold text-[36px] leading-tight max-pc:text-[20px] !important;
+  }
+
+  .s1-medium {
+    @apply font-PretendardMedium text-[36px] leading-tight max-pc:text-[20px] !important;
+  }
+
+  .s1 {
+    @apply font-Pretendard text-[36px] leading-tight max-pc:text-[20px] !important;
+  }
+
+  .s2-bold {
+    @apply font-PretendardBold text-[28px] leading-none max-pc:text-[18px] !important;
+  }
+
+  .s2-semibold {
+    @apply font-PretendardSemiBold text-[28px] leading-none max-pc:text-[18px] !important;
+  }
+
+  .s2-medium {
+    @apply font-PretendardMedium text-[28px] leading-none max-pc:text-[18px] !important;
+  }
+
+  .s2 {
+    @apply font-Pretendard text-[28px] leading-none max-pc:text-[18px] !important;
+  }
+
+  .s3-bold {
+    @apply font-PretendardBold text-[26px] leading-normal max-pc:text-[16px] !important;
+  }
+
+  .s3-semibold {
+    @apply font-PretendardSemiBold text-[26px] leading-normal max-pc:text-[16px] !important;
+  }
+
+  .s3-medium {
+    @apply font-PretendardMedium text-[26px] leading-normal max-pc:text-[16px] !important;
+  }
+
+  .s3 {
+    @apply font-Pretendard text-[26px] leading-normal max-pc:text-[16px] !important;
+  }
+
+  .s4-bold {
+    @apply font-PretendardBold text-[24px] leading-normal max-pc:text-[18px] !important;
+  }
+
+  .s4-semibold {
+    @apply font-PretendardSemiBold text-[24px] leading-normal max-pc:text-[18px] !important;
+  }
+
+  .s4-medium {
+    @apply font-PretendardMedium text-[24px] leading-normal max-pc:text-[18px] !important;
+  }
+
+  .s4 {
+    @apply font-Pretendard text-[24px] leading-normal max-pc:text-[18px] !important;
+  }
+
+  .s5-bold {
+    @apply font-PretendardBold text-[20px] leading-none max-pc:text-[16px] !important;
+  }
+
+  .s5-semibold {
+    @apply font-PretendardSemiBold text-[20px] leading-none max-pc:text-[16px] !important;
+  }
+
+  .s5-medium {
+    @apply font-PretendardMedium text-[20px] leading-none max-pc:text-[16px] !important;
+  }
+
+  .s5 {
+    @apply font-Pretendard text-[20px] leading-none max-pc:text-[16px] !important;
+  }
+
+  .s6-bold {
+    @apply font-PretendardBold text-[18px] leading-normal max-pc:text-[14px] !important;
+  }
+
+  .s6-semibold {
+    @apply font-PretendardSemiBold text-[18px] leading-normal max-pc:text-[14px] !important;
+  }
+
+  .s6-medium {
+    @apply font-PretendardMedium text-[18px] leading-normal max-pc:text-[14px] !important;
+  }
+
+  .s6 {
+    @apply font-Pretendard text-[18px] leading-normal max-pc:text-[14px] !important;
+  }
+
+  .s7-bold {
+    @apply font-PretendardBold text-[16px] leading-normal max-pc:text-[12px] !important;
+  }
+
+  .s7-semibold {
+    @apply font-PretendardSemiBold text-[16px] leading-normal max-pc:text-[12px] !important;
+  }
+
+  .s7-medium {
+    @apply font-PretendardMedium text-[16px] leading-normal max-pc:text-[12px] !important;
+  }
+
+  .s7 {
+    @apply font-Pretendard text-[16px] leading-normal max-pc:text-[12px] !important;
+  }
+
+  /* body */
+  .b1-bold {
+    @apply font-PretendardBold text-[20px] leading-normal max-pc:text-[16px] !important;
+  }
+
+  .b1-semibold {
+    @apply font-p leading max-pc:text-[16px]-normal font-PretendardSemiBold text-[20px] !important;
+  }
+
+  .b1-medium {
+    @apply font-PretendardMedium text-[20px] leading-normal max-pc:text-[16px] !important;
+  }
+
+  .b1 {
+    @apply font-Pretendard text-[20px] leading-normal max-pc:text-[16px] !important;
+  }
+  /* figma 상에서 b3랑 b2랑 text size line-height 값 동일 따라서 코드에서는 b2로 통일 */
+  .b2-bold {
+    @apply font-PretendardBold text-[18px] leading-normal max-pc:text-[14px] !important;
+  }
+
+  .b2-semibold {
+    @apply font-PretendardSemiBold text-[18px] leading-normal max-pc:text-[14px] !important;
+  }
+
+  .b2-medium {
+    @apply font-PretendardMedium text-[18px] leading-normal max-pc:text-[14px] !important;
+  }
+
+  .b2 {
+    @apply font-Pretendard text-[18px] leading-normal max-pc:text-[14px] !important;
+  }
+
+  .b3-bold {
+    @apply font-PretendardBold text-[16px] leading-normal max-pc:text-[14px] !important;
+  }
+
+  .b3-semibold {
+    @apply font-PretendardSemiBold text-[16px] leading-normal max-pc:text-[14px] !important;
+  }
+
+  .b3-medium {
+    @apply font-PretendardMedium text-[16px] leading-normal max-pc:text-[14px] !important;
+  }
+
+  .b3 {
+    @apply font-Pretendard text-[16px] leading-normal max-pc:text-[14px] !important;
+  }
+
+  .b4-bold {
+    @apply font-PretendardBold text-[14px] leading-normal max-pc:text-[12px] !important;
+  }
+
+  .b4-semibold {
+    @apply font-PretendardSemiBold text-[14px] leading-normal max-pc:text-[12px] !important;
+  }
+
+  .b4-medium {
+    @apply font-PretendardMedium text-[14px] leading-normal max-pc:text-[12px] !important;
+  }
+
+  .b4 {
+    @apply font-Pretendard text-[14px] leading-normal max-pc:text-[12px] !important;
+  }
+
+  /* button */
+  .btn1-bold {
+    @apply font-PretendardBold text-[18px] leading-normal !important;
+  }
+
+  .btn1-semibold {
+    @apply font-PretendardSemiBold text-[18px] leading-normal !important;
+  }
+
+  .btn1-medium {
+    @apply font-PretendardMedium text-[18px] leading-normal !important;
+  }
+
+  .btn1 {
+    @apply font-Pretendard text-[18px] leading-normal !important;
+  }
+
+  .btn2-bold {
+    @apply font-PretendardBold text-[16px] leading-tight !important;
+  }
+
+  .btn2-semibold {
+    @apply font-PretendardSemiBold text-[16px] leading-tight !important;
+  }
+
+  .btn2-medium {
+    @apply font-PretendardMedium text-[16px] leading-tight !important;
+  }
+
+  .btn2 {
+    @apply font-Pretendard text-[16px] leading-tight !important;
+  }
+
+  .btn3-bold {
+    @apply font-PretendardBold text-[14px] leading-tight !important;
+  }
+
+  .btn3-semibold {
+    @apply font-PretendardSemiBold text-[14px] leading-tight !important;
+  }
+
+  .btn3-medium {
+    @apply font-PretendardMedium text-[14px] leading-tight !important;
+  }
+
+  .btn3 {
+    @apply font-Pretendard text-[14px] leading-tight !important;
+  }
+
+  /* description 18/30 */
+  .desc-bold {
+    @apply font-PretendardBold text-[18px] leading-[30px] max-pc:text-[12px] max-pc:leading-[22px] !important;
+  }
+
+  .desc-semibold {
+    @apply font-PretendardSemiBold text-[18px] leading-[30px] max-pc:text-[12px] max-pc:leading-[22px] !important;
+  }
+
+  .desc-medium {
+    @apply font-PretendardMedium text-[18px] leading-[30px] max-pc:text-[12px] max-pc:leading-[22px] !important;
+  }
+
+  .desc {
+    @apply font-Pretendard text-[18px] leading-[30px] max-pc:text-[12px] max-pc:leading-[22px] !important;
+  }
+
+  /* GNB */
+  .gnb1-bold {
+    @apply font-PretendardBold text-[16px] leading-none max-pc:text-[12px] !important;
+  }
+
+  .gnb1-semibold {
+    @apply font-PretendardSemiBold text-[16px] leading-none max-pc:text-[12px] !important;
+  }
+
+  .gnb1-medium {
+    @apply font-PretendardMedium text-[16px] leading-none max-pc:text-[12px] !important;
+  }
+
+  .gnb1 {
+    @apply font-Pretendard text-[16px] leading-none max-pc:text-[12px] !important;
+  }
+}
