@@ -1,5 +1,9 @@
+import CustomCalendar from "@/components/CustomCalendar";
+
 export default function DashBoard() {
   return(
-    <h1>Welcome To Main Page</h1>
+    <div className='w-[1200px]'>
+      <CustomCalendar view="month"/>
+    </div>
   )
 }
